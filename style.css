@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    max-width: 90%;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: lightseagreen;
+}
+html{
+    background-color: lavenderblush;
+}
+header{
+    background-color: darkslategray;
+}
+header>h1{
+    text-align: center;
+}
+.self{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1400px;
+    align-items: center;
+    gap: 20px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.self>img{
+    border-radius: 50px;
+    
+}
+.skill{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.skill>div{
+    max-width: 30%;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 25px;
+}
+.gallery>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gallery>div>div{
+    display: flex;
+    gap: 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background-color: black;
+    height: 5rem;
+}
+.contact{
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 90%;
+    justify-content: end;
+    align-items: baseline;
+}
+header>h1{
+    text-align: center;
+}
